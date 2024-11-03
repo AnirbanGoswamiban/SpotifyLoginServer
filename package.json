@@ -1,0 +1,23 @@
+{
+  "name": "spotify-authorization-app",
+  "version": "1.0.0",
+  "description": "A Node.js app to implement Spotify OAuth2 authorization.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^3.1.7",
+    "querystring": "^0.2.1",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
